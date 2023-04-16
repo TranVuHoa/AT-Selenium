@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TVH&#039;s Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TVH&#039;s Test(failed)">
+    <classes>
+      <class name="tests.AdminTest">
+        <methods>
+          <include name="createAdmin" invocation-numbers="7 8"/>
+          <include name="end"/>
+          <include name="start"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.AdminTest -->
+    </classes>
+  </test> <!-- TVH's Test(failed) -->
+</suite> <!-- Failed suite [TVH's Suite] -->

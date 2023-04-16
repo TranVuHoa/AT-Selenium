@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="16" passed="12" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-17T06:23:50 ICT" name="TVH&#039;s Suite" finished-at="2023-04-17T06:39:10 ICT" duration-ms="919097">
+    <groups>
+    </groups>
+    <test started-at="2023-04-17T06:23:50 ICT" name="TVH&#039;s Test" finished-at="2023-04-17T06:39:10 ICT" duration-ms="919097">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:tests.LoginTest@196a42c3]" started-at="2023-04-17T06:23:50 ICT" name="start" finished-at="2023-04-17T06:23:50 ICT" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@196a42c3]" started-at="2023-04-17T06:23:50 ICT" name="setup" finished-at="2023-04-17T06:23:52 ICT" duration-ms="1712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:tests.LoginTest@196a42c3]" started-at="2023-04-17T06:23:52 ICT" name="login" finished-at="2023-04-17T06:23:57 ICT" duration-ms="4442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@196a42c3]" started-at="2023-04-17T06:23:57 ICT" name="teardown" finished-at="2023-04-17T06:23:57 ICT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="end()[pri:0, instance:tests.LoginTest@196a42c3]" started-at="2023-04-17T06:39:10 ICT" name="end" finished-at="2023-04-17T06:39:10 ICT" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.AdminTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:23:57 ICT" name="setup" finished-at="2023-04-17T06:23:58 ICT" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAdmin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:23:58 ICT" name="createAdmin" data-provider="admin" finished-at="2023-04-17T06:26:11 ICT" duration-ms="133429" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username_0110]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAdmin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:26:11 ICT" name="teardown" finished-at="2023-04-17T06:26:12 ICT" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:26:12 ICT" name="setup" finished-at="2023-04-17T06:26:12 ICT" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAdmin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:26:12 ICT" name="createAdmin" data-provider="admin" finished-at="2023-04-17T06:26:27 ICT" duration-ms="14709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username_1111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAdmin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:26:27 ICT" name="teardown" finished-at="2023-04-17T06:26:27 ICT" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:26:27 ICT" name="setup" finished-at="2023-04-17T06:26:28 ICT" duration-ms="852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAdmin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:26:28 ICT" name="createAdmin" data-provider="admin" finished-at="2023-04-17T06:27:02 ICT" duration-ms="33778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username_1111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAdmin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:27:02 ICT" name="teardown" finished-at="2023-04-17T06:27:02 ICT" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:27:02 ICT" name="setup" finished-at="2023-04-17T06:27:03 ICT" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAdmin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:27:03 ICT" name="createAdmin" data-provider="admin" finished-at="2023-04-17T06:27:36 ICT" duration-ms="33322" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TranVuHoa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username_1111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAdmin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:27:36 ICT" name="teardown" finished-at="2023-04-17T06:27:36 ICT" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:27:36 ICT" name="setup" finished-at="2023-04-17T06:27:37 ICT" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAdmin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:27:37 ICT" name="createAdmin" data-provider="admin" finished-at="2023-04-17T06:28:31 ICT" duration-ms="54380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username_1111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAdmin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:28:31 ICT" name="teardown" finished-at="2023-04-17T06:28:32 ICT" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:28:32 ICT" name="setup" finished-at="2023-04-17T06:28:32 ICT" duration-ms="946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAdmin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:28:32 ICT" name="createAdmin" data-provider="admin" finished-at="2023-04-17T06:29:47 ICT" duration-ms="74917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAdmin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:29:47 ICT" name="teardown" finished-at="2023-04-17T06:29:48 ICT" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:29:48 ICT" name="setup" finished-at="2023-04-17T06:29:48 ICT" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAdmin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:29:48 ICT" name="createAdmin" data-provider="admin" finished-at="2023-04-17T06:31:02 ICT" duration-ms="73710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username_0110]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAdmin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:31:02 ICT" name="teardown" finished-at="2023-04-17T06:31:02 ICT" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:31:02 ICT" name="setup" finished-at="2023-04-17T06:31:03 ICT" duration-ms="760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAdmin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:31:03 ICT" name="createAdmin" data-provider="admin" finished-at="2023-04-17T06:31:37 ICT" duration-ms="33783" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Time out! Not found Save Admin Button!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Time out! Not found Save Admin Button!
+at pages.AdminPage.clickSubmit(AdminPage.java:159)
+at tests.AdminTest.createAdmin(AdminTest.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAdmin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:31:37 ICT" name="teardown" finished-at="2023-04-17T06:31:37 ICT" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:31:37 ICT" name="setup" finished-at="2023-04-17T06:31:38 ICT" duration-ms="813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAdmin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:31:38 ICT" name="createAdmin" data-provider="admin" finished-at="2023-04-17T06:32:12 ICT" duration-ms="33834" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username_1111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Time out! Not found Save Admin Button!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Time out! Not found Save Admin Button!
+at pages.AdminPage.clickSubmit(AdminPage.java:159)
+at tests.AdminTest.createAdmin(AdminTest.java:40)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAdmin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:32:12 ICT" name="teardown" finished-at="2023-04-17T06:32:12 ICT" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:32:12 ICT" name="setup" finished-at="2023-04-17T06:32:13 ICT" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAdmin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:32:13 ICT" name="createAdmin" data-provider="admin" finished-at="2023-04-17T06:33:46 ICT" duration-ms="93165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username_1111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAdmin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:33:46 ICT" name="teardown" finished-at="2023-04-17T06:33:46 ICT" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:33:46 ICT" name="setup" finished-at="2023-04-17T06:33:47 ICT" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAdmin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:33:47 ICT" name="createAdmin" data-provider="admin" finished-at="2023-04-17T06:35:20 ICT" duration-ms="93605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username_1111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAdmin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:35:20 ICT" name="teardown" finished-at="2023-04-17T06:35:21 ICT" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:35:21 ICT" name="setup" finished-at="2023-04-17T06:35:21 ICT" duration-ms="854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAdmin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:35:21 ICT" name="createAdmin" data-provider="admin" finished-at="2023-04-17T06:37:15 ICT" duration-ms="113644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username_1111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAdmin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:37:15 ICT" name="teardown" finished-at="2023-04-17T06:37:15 ICT" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:37:15 ICT" name="setup" finished-at="2023-04-17T06:37:16 ICT" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createAdmin(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:37:16 ICT" name="createAdmin" data-provider="admin" finished-at="2023-04-17T06:39:09 ICT" duration-ms="113372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username_1111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Password_0110]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Password_1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAdmin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AdminTest@8519cb4]" started-at="2023-04-17T06:39:09 ICT" name="teardown" finished-at="2023-04-17T06:39:10 ICT" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.AdminTest -->
+    </test> <!-- TVH's Test -->
+  </suite> <!-- TVH's Suite -->
+</testng-results>
